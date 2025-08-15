@@ -1,0 +1,166 @@
+/* Reset and Base Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; /* Updated font */
+/*  'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #8e44ad, #3498db);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 2rem;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  color: white;
+  text-align: center;
+}
+
+/* Heading */
+.container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+/* Input Section */
+.input-section {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+#task-input {
+  flex: 1;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+}
+
+#add-btn {
+  background: #16a085;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+#add-btn:hover {
+  background: #1abc9c;
+}
+
+/* Task List Styling */
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+#task-list li {
+  background: rgba(255, 255, 255, 0.2);
+  margin-bottom: 0.7rem;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+#task-list li.completed span {
+  text-decoration: line-through;
+  color: #dcdcdc;
+  opacity: 0.6;
+}
+
+/* Task Text */
+#task-list li span {
+  flex: 1;
+  text-align: left;
+  font-size: 1rem;
+}
+
+/* Action Buttons */
+.task-actions button {
+  margin-left: 0.4rem;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.done-btn {
+  background: none
+  ;
+  color: white;
+}
+
+.done-btn:hover {
+  background: #27ae60;
+}
+
+.edit-btn {
+  background: none;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #f39c12;
+}
+
+.delete-btn {
+  background: none;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+
+/* Added new color theme */
+body {
+    background-color: #f4faff;
+    color: #1e3a5f;
+}
+
+button {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1565c0;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+.dark-mode button {
+    background-color: #333;
+}
